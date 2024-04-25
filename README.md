@@ -180,5 +180,3 @@ We highly suggest you to make sure that the package is updated to latest version
 ## 🕹️ HypePlay Labs .Inc
 
 A web3-friendly game store from the future. The [HyperPlay](https://www.hyperplay.xyz/) Store also aggregates Epic Games, GOG, and Amazon Prime Gaming.
-
-

@@ -155,7 +155,7 @@ export function Steam(
         id: profile.providerAccountId,
         email: `${profile.providerAccountId}@${STEAM_EMAIL_DOMAIN}`,
         name: '',
-        image: '',
+        image: ''
       }
     }
   }
