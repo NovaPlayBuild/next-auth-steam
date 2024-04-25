@@ -5,7 +5,7 @@ import NextAuth from 'next-auth/next'
 
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-const MY_API_KEY  = '';
+const MY_API_KEY = ''
 
 export default async function handler(
   req: NextApiRequest,
