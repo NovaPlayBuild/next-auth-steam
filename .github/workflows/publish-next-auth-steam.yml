@@ -9,7 +9,7 @@ on:
 
 jobs:
   release:
-    uses: HyperPlay-Gaming/workflows/.github/workflows/npm_publish.yml@main
+    uses: NovaPlay-Gaming/workflows/.github/workflows/npm_publish.yml@main
     with:
       node_version: '18'
       pkg_manager: 'npm'

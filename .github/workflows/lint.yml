@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    uses: HyperPlay-Gaming/workflows/.github/workflows/nodejs_commands.yml@main
+    uses: NovaPlay-Gaming/workflows/.github/workflows/nodejs_commands.yml@main
     with:
       node_version: '18'
       pkg_manager: 'npm'

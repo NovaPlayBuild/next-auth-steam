@@ -166,9 +166,9 @@ export function Steam(
  * @returns {Object} The style configuration object.
  */
 const getProviderStyle = () => ({
-  logo: 'https://raw.githubusercontent.com/HyperPlay-Gaming/next-auth-steam/b65dc09e98cead3111ecbfaa0ecc15eab7f125d9/logo/steam.svg',
+  logo: 'https://raw.githubusercontent.com/NovaPlay-Gaming/next-auth-steam/b65dc09e98cead3111ecbfaa0ecc15eab7f125d9/logo/steam.svg',
   logoDark:
-    'https://raw.githubusercontent.com/HyperPlay-Gaming/next-auth-steam/b65dc09e98cead3111ecbfaa0ecc15eab7f125d9/logo/steam-dark.svg',
+    'https://raw.githubusercontent.com/NovaPlay-Gaming/next-auth-steam/b65dc09e98cead3111ecbfaa0ecc15eab7f125d9/logo/steam-dark.svg',
   bg: '#121212',
   text: '#fff',
   bgDark: '#000',

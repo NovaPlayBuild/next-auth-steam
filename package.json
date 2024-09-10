@@ -9,7 +9,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/HyperPlay-Gaming/next-auth-steam"
+    "url": "https://github.com/NovaPlay-Gaming/next-auth-steam"
   },
   "files": [
     "dist"
