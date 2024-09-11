@@ -1,6 +1,6 @@
 import { NextRequest } from 'next/server'
 import { AuthOptions } from 'next-auth'
-import SteamProvider, { STEAM_PROVIDER_ID } from '@hyperplay/next-auth-steam'
+import SteamProvider, { STEAM_PROVIDER_ID } from '@novaplay/next-auth-steam'
 import { NextApiRequest } from 'next'
 
 export const authOptions: AuthOptions = {
