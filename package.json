@@ -1,5 +1,5 @@
 {
-  "name": "@hyperplay/next-auth-steam",
+  "name": "@novaplay/next-auth-steam",
   "version": "0.2.5",
   "license": "MIT",
   "description": "Steam authentication provider for next-auth",
