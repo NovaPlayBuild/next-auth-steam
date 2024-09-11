@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@hyperplay/next-auth-steam':
+  '@novaplay/next-auth-steam':
     specifier: file:../../
     version: file:../..(next-auth@4.24.5)(next@13.5.6)(openid-client@5.6.1)
   next:
@@ -757,7 +757,7 @@ packages:
   file:../..(next-auth@4.24.5)(next@13.5.6)(openid-client@5.6.1):
     resolution: { directory: ../.., type: directory }
     id: file:../..
-    name: '@hyperplay/next-auth-steam'
+    name: '@novaplay/next-auth-steam'
     peerDependencies:
       next: ^13.3.4
       next-auth: ^4.22.1
