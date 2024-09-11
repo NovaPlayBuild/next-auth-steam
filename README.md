@@ -1,4 +1,4 @@
-# @hyperplay/next-auth-steam
+# @novaplay/next-auth-steam
 
 Your Next.js app with seamless Steam authentication! 🎉
 
@@ -14,15 +14,15 @@ This is a streamlined and improved version of the Steam authentication provider 
 ## 📦 Install
 
 ```bash
-npm install @hyperplay/next-auth-steam
+npm install @novaplay/next-auth-steam
 ```
 
 ```bash
-yarn add @hyperplay/next-auth-steam
+yarn add @novaplay/next-auth-steam
 ```
 
 ```bash
-pnpm install @hyperplay/next-auth-steam
+pnpm install @novaplay/next-auth-steam
 ```
 
 ## 🔍 Example Usage
@@ -34,7 +34,7 @@ This setup can be utlized for both app router and legacy version router.
 ```ts
 // app/api/auth/[...nextauth]/route.ts
 import NextAuth from 'next-auth'
-import { onUserInfoRequestContext } from '@hyperplay/next-auth-steam'
+import { onUserInfoRequestContext } from '@novaplay/next-auth-steam'
 
 const auth = async (req: any, res: any) => {
   return await NextAuth(req, res, {
@@ -71,7 +71,7 @@ This example covers a real world scenario authentication with fetching of steam 
 ```tsx
 // utils/auth.ts
 import { AuthOptions } from "next-auth";
-import { STEAM_PROVIDER_ID, onUserInfoRequestContext } from '@hyperplay/next-auth-steam'
+import { STEAM_PROVIDER_ID, onUserInfoRequestContext } from '@novaplay/next-auth-steam'
 
 export const authOptions: AuthOptions = {
   session: {
