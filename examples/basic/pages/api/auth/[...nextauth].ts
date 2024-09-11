@@ -1,6 +1,6 @@
 import SteamProvider, {
   onUserInfoRequestContext
-} from '@hyperplay/next-auth-steam'
+} from '@novaplay/next-auth-steam'
 import NextAuth from 'next-auth/next'
 
 import type { NextApiRequest, NextApiResponse } from 'next'
